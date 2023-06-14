@@ -9,7 +9,7 @@ import { css } from "./styles"
 
 const SignIn = () => {
     const onSignUp = () => {
-        console.log('Sign up pressed')
+        console.log('Sign up pressed!!')
     }
 
     return (
