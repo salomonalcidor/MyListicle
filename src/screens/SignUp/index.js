@@ -7,38 +7,45 @@ import React, { useState } from "react"
 import Button from "../../components/Button"
 import Separator from "../../components/Separator"
 import GoogleBtn from "../../components/GoogleBtn"
+import { SafeAreaView } from "react-native-safe-area-context"
 
-const SignUp = () => {
+const SignUp = ({ navigation }) => {
     const [checked, setChecked] = useState(false)
 
     const onSignIn = () => {
-        console.log('sign in pressed')
+        navigation.navigate('Sign In')
+    }
+
+    const onBack = () => {
+        navigation.goBack()
     }
 
     return (
-        <ScrollView style={styles.container}>
-            <AuthHeader title="Sign Up" />
+        <SafeAreaView>
+            <ScrollView style={styles.container}>
+                <AuthHeader onBackPress={onBack} title="Sign Up" />
 
-            <Input label="Name" placeholder="John Doe" />
-            <Input label="Email" placeholder="example@gmail.com" />
-            <Input label="Password" placeholder="••••••••" isPassword />
+                <Input label="Name" placeholder="John Doe" />
+                <Input label="Email" placeholder="example@gmail.com" />
+                <Input label="Password" placeholder="••••••••" isPassword />
 
-            <View style={styles.terms}>
-                <Checkbox checked={checked} onCheck={setChecked} />
-                <Text style={styles.termsText}>I agree with <Text style={styles.bold}>Terms</Text> &amp; <Text style={styles.bold}>Privacy</Text></Text>
-            </View>
+                <View style={styles.terms}>
+                    <Checkbox checked={checked} onCheck={setChecked} />
+                    <Text style={styles.termsText}>I agree with <Text style={styles.bold}>Terms</Text> &amp; <Text style={styles.bold}>Privacy</Text></Text>
+                </View>
 
-            <Button style={styles.button} title="Sign Up" />
+                <Button style={styles.button} title="Sign Up" />
 
-            <Separator text="Or sign up with" />
+                <Separator text="Or sign up with" />
 
-            <GoogleBtn />
+                <GoogleBtn />
 
-            <Text style={styles.footer}>
-                Already have an account?
-                <Text onPress={onSignIn} style={styles.footerLink}> Sign In</Text>
-            </Text>
-        </ScrollView>
+                <Text style={styles.footer}>
+                    Already have an account?
+                    <Text onPress={onSignIn} style={styles.footerLink}> Sign In</Text>
+                </Text>
+            </ScrollView>
+        </SafeAreaView>
     )
 }
 

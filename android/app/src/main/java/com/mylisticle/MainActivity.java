@@ -12,7 +12,7 @@ public class MainActivity extends ReactActivity {
    * across Activity restarts
    */
   @Override
-  protected void onCreate(Bundle savedInstanceState){
+  protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(null);
   }
 
