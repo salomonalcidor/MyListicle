@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/fonts/Gelasio-Bold.ttf",
+      "sha1": "bc92faf84d15a25a5618b63c68c4d4d312cdbdb8"
+    },
+    {
+      "path": "src/fonts/Gelasio-BoldItalic.ttf",
+      "sha1": "e7a7d517a475b7f8accb2183b1da652244d127cc"
+    },
+    {
+      "path": "src/fonts/Gelasio-Italic.ttf",
+      "sha1": "689de0cd242794a7f89c8b7272a0ebd64db832d0"
+    },
+    {
+      "path": "src/fonts/Gelasio-Medium.ttf",
+      "sha1": "b6e3f60762812e72117a4027a31ba12645dbb0a9"
+    },
+    {
+      "path": "src/fonts/Gelasio-MediumItalic.ttf",
+      "sha1": "e94c23ff1606ca5ec94929ffe7dbb0fbbadbbce4"
+    },
+    {
+      "path": "src/fonts/Gelasio-Regular.ttf",
+      "sha1": "9fbbe91882df3ce403acadefe7d9be8637361da4"
+    },
+    {
+      "path": "src/fonts/Gelasio-SemiBold.ttf",
+      "sha1": "b2812e4e45593e9635cb9b46b1b94e38f2295b69"
+    },
+    {
+      "path": "src/fonts/Gelasio-SemiBoldItalic.ttf",
+      "sha1": "e5a0397ce2ea9458b3d9fb11b294446ccb6c10fc"
+    }
+  ]
+}

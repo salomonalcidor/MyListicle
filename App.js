@@ -14,9 +14,23 @@ import { NavigationContainer } from '@react-navigation/native';
 import { colors } from './src/utils/colors';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import Settings from './src/screens/Settings';
+import CreateListing from './src/screens/CreateListing';
+import MyListings from './src/screens/MyListings';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
+const ProfileStack = () => {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="Profile" component={Profile} options={{ headerShown: false }} />
+      <Stack.Screen name="Settings" component={Settings} options={{ headerShown: false }} />
+      <Stack.Screen name="CreateListing" component={CreateListing} options={{ headerShown: false }} />
+      <Stack.Screen name="MyListings" component={MyListings} options={{ headerShown: false }} />
+    </Stack.Navigator>
+  )
+}
+
 const Tabs = () => (
   <Tab.Navigator
     screenOptions={({ route }) => ({
@@ -27,7 +41,7 @@ const Tabs = () => (
           icon = focused ? require('./src/assets/home_active.png') : require('./src/assets/home.png');
         } else if (route.name === 'Favorites') {
           icon = focused ? require('./src/assets/favorites_active.png') : require('./src/assets/favorites.png');
-        } else if (route.name === 'Profile') {
+        } else if (route.name === 'ProfileStack') {
           icon = focused ? require('./src/assets/profile_active.png') : require('./src/assets/profile.png');
         }
 
@@ -41,7 +55,7 @@ const Tabs = () => (
   >
     <Tab.Screen name="Home" component={Home} />
     <Tab.Screen name="Favorites" component={Favorites} />
-    <Tab.Screen name="Profile" component={Profile} />
+    <Tab.Screen name="ProfileStack" component={ProfileStack} />
   </Tab.Navigator>
 )
 const Theme = {
@@ -52,6 +66,7 @@ const Theme = {
 
 const App = () => {
   const isSignedIn = true
+
   useEffect(() => {
     GoogleSignin.configure({
       scopes: ['https://www.googleapis.com/auth/drive.readonly'],
@@ -62,8 +77,6 @@ const App = () => {
   }, [])
 
   return (
-    // <Stack.Navigator>
-    // </Stack.Navigator>
     <SafeAreaProvider>
       <NavigationContainer theme={Theme}>
         <Stack.Navigator>

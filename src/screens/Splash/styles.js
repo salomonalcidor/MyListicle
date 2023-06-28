@@ -13,6 +13,10 @@ export const styles = StyleSheet.create({
     titleContainer: {
         marginVertical: 54
     },
+    btnContainer: {
+        width: '100%',
+        flexDirection: 'row'
+    },
     image: {
         width: '100%',
         height: 200

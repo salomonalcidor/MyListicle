@@ -12,8 +12,16 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		19B902E0111848B792EEE4B3 /* Gelasio-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABD10714146A45E18C09BDC1 /* Gelasio-Medium.ttf */; };
+		29B84F250D29483FBDA31257 /* Gelasio-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B026DEC41E4C467B96910334 /* Gelasio-MediumItalic.ttf */; };
+		3BB0B8ACB065410BB8A1C790 /* Gelasio-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC4A50F3B24F4A9C9D5BFFE0 /* Gelasio-SemiBoldItalic.ttf */; };
+		501E3DF5EAB645209E2B5D56 /* Gelasio-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAF472FE37814B3489389527 /* Gelasio-Bold.ttf */; };
+		53B53747C90F4E4BAAA69EFF /* Gelasio-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 559CDC8312364E038E819DB9 /* Gelasio-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-MyListicle-MyListicleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MyListicle-MyListicleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B74639199F1B43B2BEEEBD07 /* Gelasio-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05FA396DBE344996A53EFACD /* Gelasio-SemiBold.ttf */; };
+		DF4FCB04D3B94536955E7EEC /* Gelasio-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 797F4314174E4E438C0B4D52 /* Gelasio-Italic.ttf */; };
+		F82FF59A3F5548ACAC405C26 /* Gelasio-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB4799DBDA4C4086541929 /* Gelasio-BoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +38,7 @@
 		00E356EE1AD99517003FC87E /* MyListicleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyListicleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MyListicleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyListicleTests.m; sourceTree = "<group>"; };
+		05FA396DBE344996A53EFACD /* Gelasio-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gelasio-SemiBold.ttf"; path = "../src/fonts/Gelasio-SemiBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MyListicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyListicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyListicle/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = MyListicle/AppDelegate.mm; sourceTree = "<group>"; };
@@ -37,12 +46,19 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyListicle/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyListicle/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-MyListicle-MyListicleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyListicle-MyListicleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDB4799DBDA4C4086541929 /* Gelasio-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gelasio-BoldItalic.ttf"; path = "../src/fonts/Gelasio-BoldItalic.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-MyListicle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyListicle.debug.xcconfig"; path = "Target Support Files/Pods-MyListicle/Pods-MyListicle.debug.xcconfig"; sourceTree = "<group>"; };
+		559CDC8312364E038E819DB9 /* Gelasio-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gelasio-Regular.ttf"; path = "../src/fonts/Gelasio-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-MyListicle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyListicle.release.xcconfig"; path = "Target Support Files/Pods-MyListicle/Pods-MyListicle.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MyListicle-MyListicleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyListicle-MyListicleTests.debug.xcconfig"; path = "Target Support Files/Pods-MyListicle-MyListicleTests/Pods-MyListicle-MyListicleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-MyListicle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyListicle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797F4314174E4E438C0B4D52 /* Gelasio-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gelasio-Italic.ttf"; path = "../src/fonts/Gelasio-Italic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyListicle/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MyListicle-MyListicleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyListicle-MyListicleTests.release.xcconfig"; path = "Target Support Files/Pods-MyListicle-MyListicleTests/Pods-MyListicle-MyListicleTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABD10714146A45E18C09BDC1 /* Gelasio-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gelasio-Medium.ttf"; path = "../src/fonts/Gelasio-Medium.ttf"; sourceTree = "<group>"; };
+		B026DEC41E4C467B96910334 /* Gelasio-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gelasio-MediumItalic.ttf"; path = "../src/fonts/Gelasio-MediumItalic.ttf"; sourceTree = "<group>"; };
+		BAF472FE37814B3489389527 /* Gelasio-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gelasio-Bold.ttf"; path = "../src/fonts/Gelasio-Bold.ttf"; sourceTree = "<group>"; };
+		DC4A50F3B24F4A9C9D5BFFE0 /* Gelasio-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gelasio-SemiBoldItalic.ttf"; path = "../src/fonts/Gelasio-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -122,6 +138,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				93D4AD98AB9940D781578517 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +152,22 @@
 				00E356EE1AD99517003FC87E /* MyListicleTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		93D4AD98AB9940D781578517 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAF472FE37814B3489389527 /* Gelasio-Bold.ttf */,
+				1EDB4799DBDA4C4086541929 /* Gelasio-BoldItalic.ttf */,
+				797F4314174E4E438C0B4D52 /* Gelasio-Italic.ttf */,
+				ABD10714146A45E18C09BDC1 /* Gelasio-Medium.ttf */,
+				B026DEC41E4C467B96910334 /* Gelasio-MediumItalic.ttf */,
+				559CDC8312364E038E819DB9 /* Gelasio-Regular.ttf */,
+				05FA396DBE344996A53EFACD /* Gelasio-SemiBold.ttf */,
+				DC4A50F3B24F4A9C9D5BFFE0 /* Gelasio-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +277,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				501E3DF5EAB645209E2B5D56 /* Gelasio-Bold.ttf in Resources */,
+				F82FF59A3F5548ACAC405C26 /* Gelasio-BoldItalic.ttf in Resources */,
+				DF4FCB04D3B94536955E7EEC /* Gelasio-Italic.ttf in Resources */,
+				19B902E0111848B792EEE4B3 /* Gelasio-Medium.ttf in Resources */,
+				29B84F250D29483FBDA31257 /* Gelasio-MediumItalic.ttf in Resources */,
+				53B53747C90F4E4BAAA69EFF /* Gelasio-Regular.ttf in Resources */,
+				B74639199F1B43B2BEEEBD07 /* Gelasio-SemiBold.ttf in Resources */,
+				3BB0B8ACB065410BB8A1C790 /* Gelasio-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

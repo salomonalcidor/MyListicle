@@ -55,7 +55,10 @@ const Home = ({ navigation }) => {
         <SafeAreaView>
             <Header onSearch={setKeyword} keyword={keyword} title="Find all you need" showSearch />
 
-            <FlatList showsHorizontalScrollIndicator={false} style={styles.list} horizontal data={categories} renderItem={renderCategoryList} keyExtractor={(item, index) => String(index)} />
+            <FlatList
+                showsHorizontalScrollIndicator={false} style={styles.list}
+                horizontal data={categories} renderItem={renderCategoryList}
+                keyExtractor={(item, index) => String(index)} />
 
             <FlatList
                 style={styles.productList} numColumns={2}
